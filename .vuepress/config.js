@@ -4,7 +4,6 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 import { gitPlugin } from '@vuepress/plugin-git'
-import { readingTimePlugin } from '@vuepress/plugin-reading-time'
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -14,10 +13,8 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: 'https://dvnge.ttqwn.top/favicon.png',
 
-    // ====== 加上这两行 ======
     lastUpdated: true,
     contributors: true,
-    // =======================
 
     navbar: [
       { text: '首页', link: '/' },
@@ -57,9 +54,6 @@ export default defineUserConfig({
       createdTime: true,
       updatedTime: true,
       contributors: true,
-    }),
-    readingTimePlugin({
-      wordPerMinute: 300,
     }),
   ],
 
