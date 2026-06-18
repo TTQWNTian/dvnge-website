@@ -9,16 +9,3 @@ export const routes = Object.fromEntries([
   ["/docs/%E7%AB%A0%E8%8A%82%E6%A6%82%E5%BF%B5.html", { loader: () => import(/* webpackChunkName: "docs_章节概念.html" */"/data/data/com.termux/files/home/dvnge-docs/docs/章节概念.md"), meta: {"title":"章节概念"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/data/data/com.termux/files/home/dvnge-docs/.vuepress/.temp/pages/404.html.vue"), meta: {"title":""} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  __VUE_HMR_RUNTIME__.updateRoutes?.(routes)
-  __VUE_HMR_RUNTIME__.updateRedirects?.(redirects)
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept((m) => {
-    __VUE_HMR_RUNTIME__.updateRoutes?.(m.routes)
-    __VUE_HMR_RUNTIME__.updateRedirects?.(m.redirects)
-  })
-}

@@ -1,0 +1,1 @@
+var e=`/docsImg/helloworld.webp`;export{e as t};
