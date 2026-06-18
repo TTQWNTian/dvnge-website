@@ -63,13 +63,13 @@ export default defineUserConfig({
         children: [
           '/docs/Dvnge的文件.md',
           '/docs/章节概念.md',
+          '/docs/什么是节点.md',
         ],
       },
       {
         text: '基础',
         collapsible: true,
         children: [
-          '/docs/什么是节点.md',
           '/docs/基础属性.md',
           '/docs/立绘系统.md',
         ],

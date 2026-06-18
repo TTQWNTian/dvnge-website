@@ -1,22 +1,7 @@
 export const SEARCH_INDEX = [
   {
-    "title": "Home",
-    "headers": [
-      {
-        "level": 3,
-        "title": "仓库详情：",
-        "slug": "仓库详情",
-        "link": "#仓库详情",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "贡献者：",
-        "slug": "贡献者",
-        "link": "#贡献者",
-        "children": []
-      }
-    ],
+    "title": "首页",
+    "headers": [],
     "path": "/",
     "pathLocale": "/",
     "extraFields": []
@@ -189,6 +174,13 @@ export const SEARCH_INDEX = [
     "title": "章节概念",
     "headers": [],
     "path": "/docs/%E7%AB%A0%E8%8A%82%E6%A6%82%E5%BF%B5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Dvnge插件",
+    "headers": [],
+    "path": "/plugins/",
     "pathLocale": "/",
     "extraFields": []
   },
