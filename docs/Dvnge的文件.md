@@ -21,8 +21,7 @@ game.html
 index.html
 LICENSE.txt
 ```
-::: warning
-此目录更新于 `v1.7.0` 版本
+::: warning 此目录更新于 `v1.7.0` 版本
 :::
 
 ## css/样式.css
