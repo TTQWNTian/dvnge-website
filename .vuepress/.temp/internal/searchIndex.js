@@ -1,15 +1,23 @@
 export const SEARCH_INDEX = [
   {
     "title": "首页",
-    "headers": [],
+    "headers": [
+      {
+        "level": 3,
+        "title": "仓库详情：",
+        "slug": "仓库详情",
+        "link": "#仓库详情",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "贡献者：",
+        "slug": "贡献者",
+        "link": "#贡献者",
+        "children": []
+      }
+    ],
     "path": "/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Dvnge插件",
-    "headers": [],
-    "path": "/plugins/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -185,6 +193,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Dvnge插件",
+    "headers": [],
+    "path": "/plugins/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -192,16 +207,3 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
