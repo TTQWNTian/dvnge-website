@@ -179,6 +179,13 @@ export const SEARCH_INDEX = [
         "slug": "变量路径",
         "link": "#变量路径",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "视频立绘",
+        "slug": "视频立绘",
+        "link": "#视频立绘",
+        "children": []
       }
     ],
     "path": "/docs/%E7%AB%8B%E7%BB%98%E7%B3%BB%E7%BB%9F.html",

@@ -39,7 +39,7 @@ export default defineUserConfig({
     lastUpdated: true,
     contributors: true,
     
-    repo: 'ttqwntian/dvnge-site',
+    repo: 'ttqwntian/dvnge-website',
     editLink: true,
     
     locales: {
