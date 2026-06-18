@@ -30,7 +30,7 @@ features:
     details: 代码体积小，仓库轻量，快速下载和部署。
 
 footerHtml: true
-footer: 'Mozilla Public License 2.0 | Copyright © 2025-present Dvnge | Made with ❤️ by <a href="https://github.com/ttqwntian" target="_blank">TTQwnTian</a>'
+footer: 'Mozilla Public License 2.0 | Copyright © 2025-present Dvnge | Made with ❤️ by <a href="https://github.com/ttqwntian" target="_blank">TTQWNTian</a>'
 ---
 
 ### 仓库详情：
