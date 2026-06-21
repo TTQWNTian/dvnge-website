@@ -61,16 +61,23 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "js/样式配置.js",
-        "slug": "js-样式配置-js",
-        "link": "#js-样式配置-js",
+        "title": "js/游戏配置.js",
+        "slug": "js-游戏配置-js",
+        "link": "#js-游戏配置-js",
         "children": []
       },
       {
         "level": 2,
-        "title": "章节/",
-        "slug": "章节",
-        "link": "#章节",
+        "title": "chapter/",
+        "slug": "chapter",
+        "link": "#chapter",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "chapter/tl/",
+        "slug": "chapter-tl",
+        "link": "#chapter-tl",
         "children": []
       },
       {
@@ -108,6 +115,13 @@ export const SEARCH_INDEX = [
         "slug": "脚本教程",
         "link": "#脚本教程",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "旧脚本语法",
+        "slug": "旧脚本语法",
+        "link": "#旧脚本语法",
+        "children": []
       }
     ],
     "path": "/docs/",
@@ -118,6 +132,27 @@ export const SEARCH_INDEX = [
     "title": "什么是节点？",
     "headers": [],
     "path": "/docs/%E4%BB%80%E4%B9%88%E6%98%AF%E8%8A%82%E7%82%B9.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "章节概念",
+    "headers": [],
+    "path": "/docs/%E7%AB%A0%E8%8A%82%E6%A6%82%E5%BF%B5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Dvnge 插件",
+    "headers": [],
+    "path": "/plugins/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "基础属性",
+    "headers": [],
+    "path": "/docs/dvns/%E5%9F%BA%E7%A1%80%E5%B1%9E%E6%80%A7.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -160,7 +195,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/docs/%E5%9F%BA%E7%A1%80%E5%B1%9E%E6%80%A7.html",
+    "path": "/docs/js/%E5%9F%BA%E7%A1%80%E5%B1%9E%E6%80%A7.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -203,21 +238,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/docs/%E7%AB%8B%E7%BB%98.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "章节概念",
-    "headers": [],
-    "path": "/docs/%E7%AB%A0%E8%8A%82%E6%A6%82%E5%BF%B5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Dvnge 插件",
-    "headers": [],
-    "path": "/plugins/",
+    "path": "/docs/js/%E7%AB%8B%E7%BB%98.html",
     "pathLocale": "/",
     "extraFields": []
   },

@@ -1,1 +1,1 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"Dvnge\",\"description\":\"欢迎来到本引擎的官方网站！\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/favicon.png\"}]],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"Dvnge\",\"description\":\"欢迎来到本引擎的官方网站！\"}}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"Dvnge\",\"description\":\"一款中文友好的视觉小说引擎！\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/favicon.png\"}]],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"Dvnge\",\"description\":\"一款中文友好的视觉小说引擎！\"}}}")
