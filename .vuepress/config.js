@@ -12,7 +12,7 @@ import { markdownFileTreePlugin } from "@vuepress/plugin-markdown-file-tree";
 export default defineUserConfig({
     lang: "zh-CN",
     title: "Dvnge",
-    description: "一款中文友好的视觉小说引擎！",
+    description: "一款中文友好、全平台运行OK的视觉小说引擎！",
 
     head: [
         ["link", { rel: "icon", href: "/favicon.png" }],
@@ -70,15 +70,20 @@ export default defineUserConfig({
                     text: "开始",
                     collapsible: true,
                     children: [
-                        "/docs/Dvnge的文件.md",
-                        "/docs/章节概念.md",
-                        "/docs/什么是节点.md",
+                        "/docs/开始/Dvnge的文件.md",
+                        "/docs/开始/章节概念.md",
+                        "/docs/开始/什么是节点.md",
                     ],
                 },
                 {
                     text: "dvns",
                     collapsible: true,
                     children: ["/docs/dvns/语法.md"],
+                },
+                {
+                    text: "进阶",
+                    collapsible: true,
+                    children: ["/docs/进阶/游戏配置.md"],
                 },
                 {
                     text: "js语法",
@@ -92,7 +97,7 @@ export default defineUserConfig({
                     collapsible: true,
                     children: [
                         /*'/plugins/插件A.md',
-            '/plugins/插件B.md',*/
+                        '/plugins/插件B.md',*/
                     ],
                 },
             ],

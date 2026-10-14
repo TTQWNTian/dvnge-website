@@ -22,91 +22,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Dvnge的文件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "css/样式.css",
-        "slug": "css-样式-css",
-        "link": "#css-样式-css",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "css/动画.css",
-        "slug": "css-动画-css",
-        "link": "#css-动画-css",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "js/TTQ视觉小说引擎.js",
-        "slug": "js-ttq视觉小说引擎-js",
-        "link": "#js-ttq视觉小说引擎-js",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "js/自定义功能.js",
-        "slug": "js-自定义功能-js",
-        "link": "#js-自定义功能-js",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "js/导出入存档功能.js",
-        "slug": "js-导出入存档功能-js",
-        "link": "#js-导出入存档功能-js",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "js/游戏配置.js",
-        "slug": "js-游戏配置-js",
-        "link": "#js-游戏配置-js",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "chapter/",
-        "slug": "chapter",
-        "link": "#chapter",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "chapter/tl/",
-        "slug": "chapter-tl",
-        "link": "#chapter-tl",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "game.html",
-        "slug": "game-html",
-        "link": "#game-html",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "index.html",
-        "slug": "index-html",
-        "link": "#index-html",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "LICENSE.txt",
-        "slug": "license-txt",
-        "link": "#license-txt",
-        "children": []
-      }
-    ],
-    "path": "/docs/Dvnge%E7%9A%84%E6%96%87%E4%BB%B6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Dvnge 文档",
     "headers": [
       {
@@ -125,6 +40,13 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
+        "title": "进阶",
+        "slug": "进阶",
+        "link": "#进阶",
+        "children": []
+      },
+      {
+        "level": 2,
         "title": "旧脚本语法",
         "slug": "旧脚本语法",
         "link": "#旧脚本语法",
@@ -132,57 +54,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/docs/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "什么是节点？",
-    "headers": [
-      {
-        "level": 2,
-        "title": "dvns 里的节点",
-        "slug": "dvns-里的节点",
-        "link": "#dvns-里的节点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "js 里的节点",
-        "slug": "js-里的节点",
-        "link": "#js-里的节点",
-        "children": []
-      }
-    ],
-    "path": "/docs/%E4%BB%80%E4%B9%88%E6%98%AF%E8%8A%82%E7%82%B9.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "章节概念",
-    "headers": [
-      {
-        "level": 2,
-        "title": "使用 dvns 文件",
-        "slug": "使用-dvns-文件",
-        "link": "#使用-dvns-文件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用 js 文件",
-        "slug": "使用-js-文件",
-        "link": "#使用-js-文件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "配置章节列表",
-        "slug": "配置章节列表",
-        "link": "#配置章节列表",
-        "children": []
-      }
-    ],
-    "path": "/docs/%E7%AB%A0%E8%8A%82%E6%A6%82%E5%BF%B5.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -480,6 +351,220 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/docs/js/%E7%AB%8B%E7%BB%98.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Dvnge的文件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "css/样式.css",
+        "slug": "css-样式-css",
+        "link": "#css-样式-css",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "css/动画.css",
+        "slug": "css-动画-css",
+        "link": "#css-动画-css",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "js/TTQ视觉小说引擎.js",
+        "slug": "js-ttq视觉小说引擎-js",
+        "link": "#js-ttq视觉小说引擎-js",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "js/自定义功能.js",
+        "slug": "js-自定义功能-js",
+        "link": "#js-自定义功能-js",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "js/导出入存档功能.js",
+        "slug": "js-导出入存档功能-js",
+        "link": "#js-导出入存档功能-js",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "js/游戏配置.js",
+        "slug": "js-游戏配置-js",
+        "link": "#js-游戏配置-js",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "chapter/",
+        "slug": "chapter",
+        "link": "#chapter",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "chapter/tl/",
+        "slug": "chapter-tl",
+        "link": "#chapter-tl",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "game.html",
+        "slug": "game-html",
+        "link": "#game-html",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "index.html",
+        "slug": "index-html",
+        "link": "#index-html",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "LICENSE.txt",
+        "slug": "license-txt",
+        "link": "#license-txt",
+        "children": []
+      }
+    ],
+    "path": "/docs/%E5%BC%80%E5%A7%8B/Dvnge%E7%9A%84%E6%96%87%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "什么是节点？",
+    "headers": [
+      {
+        "level": 2,
+        "title": "dvns 里的节点",
+        "slug": "dvns-里的节点",
+        "link": "#dvns-里的节点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "js 里的节点",
+        "slug": "js-里的节点",
+        "link": "#js-里的节点",
+        "children": []
+      }
+    ],
+    "path": "/docs/%E5%BC%80%E5%A7%8B/%E4%BB%80%E4%B9%88%E6%98%AF%E8%8A%82%E7%82%B9.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "章节概念",
+    "headers": [
+      {
+        "level": 2,
+        "title": "使用 dvns 文件",
+        "slug": "使用-dvns-文件",
+        "link": "#使用-dvns-文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用 js 文件",
+        "slug": "使用-js-文件",
+        "link": "#使用-js-文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "配置章节列表",
+        "slug": "配置章节列表",
+        "link": "#配置章节列表",
+        "children": []
+      }
+    ],
+    "path": "/docs/%E5%BC%80%E5%A7%8B/%E7%AB%A0%E8%8A%82%E6%A6%82%E5%BF%B5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "游戏配置",
+    "headers": [
+      {
+        "level": 2,
+        "title": "章节文件列表",
+        "slug": "章节文件列表",
+        "link": "#章节文件列表",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "语言配置",
+        "slug": "语言配置",
+        "link": "#语言配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "立绘预设",
+        "slug": "立绘预设",
+        "link": "#立绘预设",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "角色样式表",
+        "slug": "角色样式表",
+        "link": "#角色样式表",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "初始状态",
+        "slug": "初始状态",
+        "link": "#初始状态",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "最大存档位",
+        "slug": "最大存档位",
+        "link": "#最大存档位",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "历史记录配置",
+        "slug": "历史记录配置",
+        "link": "#历史记录配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "限制游戏视口",
+        "slug": "限制游戏视口",
+        "link": "#限制游戏视口",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "存储键名",
+        "slug": "存储键名",
+        "link": "#存储键名",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "导出配置",
+        "slug": "导出配置",
+        "link": "#导出配置",
+        "children": []
+      }
+    ],
+    "path": "/docs/%E8%BF%9B%E9%98%B6/%E6%B8%B8%E6%88%8F%E9%85%8D%E7%BD%AE.html",
     "pathLocale": "/",
     "extraFields": []
   },
