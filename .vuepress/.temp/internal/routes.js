@@ -12,16 +12,3 @@ export const routes = Object.fromEntries([
   ["/docs/js/%E7%AB%8B%E7%BB%98.html", { loader: () => import(/* webpackChunkName: "docs_js_立绘.html" */"/data/data/com.termux/files/home/dvnge-website/docs/js/立绘.md"), meta: {"title":"立绘"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/data/data/com.termux/files/home/dvnge-website/.vuepress/.temp/pages/404.html.vue"), meta: {"title":""} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  __VUE_HMR_RUNTIME__.updateRoutes?.(routes)
-  __VUE_HMR_RUNTIME__.updateRedirects?.(redirects)
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept((m) => {
-    __VUE_HMR_RUNTIME__.updateRoutes?.(m.routes)
-    __VUE_HMR_RUNTIME__.updateRedirects?.(m.redirects)
-  })
-}

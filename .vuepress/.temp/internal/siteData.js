@@ -1,12 +1,1 @@
 export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"Dvnge\",\"description\":\"一款中文友好的视觉小说引擎！\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/favicon.png\"}],[\"link\",{\"rel\":\"stylesheet\",\"href\":\"https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600&display=swap\"}],[\"link\",{\"rel\":\"stylesheet\",\"href\":\"https://fontsapi.zeoseven.com/521/main/result.css\"}]],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"Dvnge\",\"description\":\"一款中文友好的视觉小说引擎！\"}}}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  __VUE_HMR_RUNTIME__.updateSiteData?.(siteData)
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept((m) => {
-    __VUE_HMR_RUNTIME__.updateSiteData?.(m.siteData)
-  })
-}

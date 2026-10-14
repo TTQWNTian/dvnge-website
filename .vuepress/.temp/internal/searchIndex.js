@@ -111,6 +111,13 @@ export const SEARCH_INDEX = [
     "headers": [
       {
         "level": 2,
+        "title": "开始",
+        "slug": "开始",
+        "link": "#开始",
+        "children": []
+      },
+      {
+        "level": 2,
         "title": "脚本教程",
         "slug": "脚本教程",
         "link": "#脚本教程",
@@ -130,14 +137,51 @@ export const SEARCH_INDEX = [
   },
   {
     "title": "什么是节点？",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "dvns 里的节点",
+        "slug": "dvns-里的节点",
+        "link": "#dvns-里的节点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "js 里的节点",
+        "slug": "js-里的节点",
+        "link": "#js-里的节点",
+        "children": []
+      }
+    ],
     "path": "/docs/%E4%BB%80%E4%B9%88%E6%98%AF%E8%8A%82%E7%82%B9.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "章节概念",
-    "headers": [],
+    "headers": [
+      {
+        "level": 2,
+        "title": "使用 dvns 文件",
+        "slug": "使用-dvns-文件",
+        "link": "#使用-dvns-文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用 js 文件",
+        "slug": "使用-js-文件",
+        "link": "#使用-js-文件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "配置章节列表",
+        "slug": "配置章节列表",
+        "link": "#配置章节列表",
+        "children": []
+      }
+    ],
     "path": "/docs/%E7%AB%A0%E8%8A%82%E6%A6%82%E5%BF%B5.html",
     "pathLocale": "/",
     "extraFields": []
@@ -336,45 +380,9 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "多语言",
-        "slug": "多语言",
-        "link": "#多语言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "变量与表达式",
-        "slug": "变量与表达式",
-        "link": "#变量与表达式",
-        "children": [
-          {
-            "level": 3,
-            "title": "变量插值：",
-            "slug": "变量插值",
-            "link": "#变量插值",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "条件表达式：",
-            "slug": "条件表达式",
-            "link": "#条件表达式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "变量运算：",
-            "slug": "变量运算",
-            "link": "#变量运算",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "富文本与特殊标签",
-        "slug": "富文本与特殊标签",
-        "link": "#富文本与特殊标签",
+        "title": "特殊标签",
+        "slug": "特殊标签",
+        "link": "#特殊标签",
         "children": []
       },
       {
@@ -382,13 +390,6 @@ export const SEARCH_INDEX = [
         "title": "注释",
         "slug": "注释",
         "link": "#注释",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "完整示例",
-        "slug": "完整示例",
-        "link": "#完整示例",
         "children": []
       }
     ],
@@ -490,16 +491,3 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
