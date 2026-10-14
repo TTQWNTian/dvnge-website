@@ -14,7 +14,11 @@ export default defineUserConfig({
     title: "Dvnge",
     description: "一款中文友好的视觉小说引擎！",
 
-    head: [["link", { rel: "icon", href: "/favicon.png" }]],
+    head: [
+        ["link", { rel: "icon", href: "/favicon.png" }],
+        ["link", { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600&display=swap" }],
+        ["link", { rel: "stylesheet", href: "https://fontsapi.zeoseven.com/521/main/result.css" }],
+    ],
 
     markdown: {
         html: true,
@@ -72,9 +76,9 @@ export default defineUserConfig({
                     ],
                 },
                 {
-                    text: "基础",
+                    text: "dvns",
                     collapsible: true,
-                    children: ["/docs/dvns/基础属性.md"],
+                    children: ["/docs/dvns/语法.md"],
                 },
                 {
                     text: "js语法",

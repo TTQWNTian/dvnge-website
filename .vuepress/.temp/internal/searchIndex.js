@@ -150,9 +150,249 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "基础属性",
-    "headers": [],
-    "path": "/docs/dvns/%E5%9F%BA%E7%A1%80%E5%B1%9E%E6%80%A7.html",
+    "title": "dvns 语法",
+    "headers": [
+      {
+        "level": 2,
+        "title": "节点",
+        "slug": "节点",
+        "link": "#节点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "对话",
+        "slug": "对话",
+        "link": "#对话",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "指令",
+        "slug": "指令",
+        "link": "#指令",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "背景",
+        "slug": "背景",
+        "link": "#背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "音乐",
+        "slug": "音乐",
+        "link": "#音乐",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "音效",
+        "slug": "音效",
+        "link": "#音效",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "立绘",
+        "slug": "立绘",
+        "link": "#立绘",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "头像",
+        "slug": "头像",
+        "link": "#头像",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "标题",
+        "slug": "标题",
+        "link": "#标题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "设置变量",
+        "slug": "设置变量",
+        "link": "#设置变量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "读档时设置变量",
+        "slug": "读档时设置变量",
+        "link": "#读档时设置变量",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "输入",
+        "slug": "输入",
+        "link": "#输入",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "选项",
+        "slug": "选项",
+        "link": "#选项",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "目标",
+        "slug": "目标",
+        "link": "#目标",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "标签",
+        "slug": "标签",
+        "link": "#标签",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "条件",
+        "slug": "条件",
+        "link": "#条件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "自动存档",
+        "slug": "自动存档",
+        "link": "#自动存档",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "自动节点",
+        "slug": "自动节点",
+        "link": "#自动节点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解锁CG",
+        "slug": "解锁cg",
+        "link": "#解锁cg",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "调查",
+        "slug": "调查",
+        "link": "#调查",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "跳转HTML",
+        "slug": "跳转html",
+        "link": "#跳转html",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "逐字显示",
+        "slug": "逐字显示",
+        "link": "#逐字显示",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "打字音效",
+        "slug": "打字音效",
+        "link": "#打字音效",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "快进",
+        "slug": "快进",
+        "link": "#快进",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "自定义功能",
+        "slug": "自定义功能",
+        "link": "#自定义功能",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "动画",
+        "slug": "动画",
+        "link": "#动画",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "多语言",
+        "slug": "多语言",
+        "link": "#多语言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "变量与表达式",
+        "slug": "变量与表达式",
+        "link": "#变量与表达式",
+        "children": [
+          {
+            "level": 3,
+            "title": "变量插值：",
+            "slug": "变量插值",
+            "link": "#变量插值",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "条件表达式：",
+            "slug": "条件表达式",
+            "link": "#条件表达式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "变量运算：",
+            "slug": "变量运算",
+            "link": "#变量运算",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "富文本与特殊标签",
+        "slug": "富文本与特殊标签",
+        "link": "#富文本与特殊标签",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "注释",
+        "slug": "注释",
+        "link": "#注释",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "完整示例",
+        "slug": "完整示例",
+        "link": "#完整示例",
+        "children": []
+      }
+    ],
+    "path": "/docs/dvns/%E8%AF%AD%E6%B3%95.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -250,3 +490,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

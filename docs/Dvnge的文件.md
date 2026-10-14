@@ -27,7 +27,7 @@ description: 说明Dvnge视觉小说引擎的项目结构和各个文件的作�
 - LICENSE.txt
 :::
 
-::: warning 此目录更新于 `v1.9.0-dev` 版本
+::: warning 此目录更新于 `v1.10.0-dev` 版本
 :::
 
 ## css/样式.css
@@ -42,7 +42,7 @@ description: 说明Dvnge视觉小说引擎的项目结构和各个文件的作�
 
 ## js/TTQ视觉小说引擎.js
 
-引擎的核心文件，除非添加/修改[章节](./章节概念.html)建议是不要动此文件（会 JavaScript 除外）。
+引擎的核心文件，建议是不要动此文件（熟悉 JavaScript 除外）。
 
 ## js/自定义功能.js
 
@@ -62,7 +62,25 @@ description: 说明Dvnge视觉小说引擎的项目结构和各个文件的作�
 
 ## chapter/tl/
 
-多语言文本放在该目录下。
+每个章节的翻译文件，放在 `chapter/tl/语言代码/章节名.dvns`。
+
+```text
+chapter/序章.dvns
+chapter/tl/en/序章.dvns
+chapter/tl/ja/序章.dvns
+```
+
+`.dvns`或者`.js`都可以使用，翻译文件的结构必须和主文件对应，可翻译的包括对话、选项文本、输入提示、占位符、按钮文字、标题内容，例如：
+
+```dvns
+@输入 占位符=Enter here,提示文字=Enter your name,按钮文字=Confirm$
+"Tian": Who are you?$
+@选项
+Yes
+No$
+"Tian": I hate you {name}...$
+"Tian": I like you {name}~$
+```
 
 ## game.html
 
