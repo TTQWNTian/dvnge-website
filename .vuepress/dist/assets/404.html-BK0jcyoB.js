@@ -1,1 +1,0 @@
-import{n as e,o as t,r as n,t as r}from"./app-CFf6c06R.js";var i=JSON.parse(`{"path":"/404.html","title":"","lang":"zh-CN","frontmatter":{"layout":"NotFound"},"filePathRelative":null,"git":{}}`),a={name:`404.html.vue`};function o(r,i,a,o,s,c){return t(),n(`div`,null,[...i[0]||=[e(`p`,null,`404 Not Found`,-1)]])}var s=r(a,[[`render`,o]]);export{i as _pageData,s as default};
