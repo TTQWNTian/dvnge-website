@@ -373,23 +373,9 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "js/TTQ视觉小说引擎.js",
-        "slug": "js-ttq视觉小说引擎-js",
-        "link": "#js-ttq视觉小说引擎-js",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "js/自定义功能.js",
-        "slug": "js-自定义功能-js",
-        "link": "#js-自定义功能-js",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "js/导出入存档功能.js",
-        "slug": "js-导出入存档功能-js",
-        "link": "#js-导出入存档功能-js",
+        "title": "js/main.js",
+        "slug": "js-main-js",
+        "link": "#js-main-js",
         "children": []
       },
       {
@@ -398,6 +384,57 @@ export const SEARCH_INDEX = [
         "slug": "js-游戏配置-js",
         "link": "#js-游戏配置-js",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "js/引擎/",
+        "slug": "js-引擎",
+        "link": "#js-引擎",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "js/工具/",
+        "slug": "js-工具",
+        "link": "#js-工具",
+        "children": [
+          {
+            "level": 3,
+            "title": "js/工具/index.js",
+            "slug": "js-工具-index-js",
+            "link": "#js-工具-index-js",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "js/工具/导出入存档功能.js",
+            "slug": "js-工具-导出入存档功能-js",
+            "link": "#js-工具-导出入存档功能-js",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "js/自定义/",
+        "slug": "js-自定义",
+        "link": "#js-自定义",
+        "children": [
+          {
+            "level": 3,
+            "title": "js/自定义/index.js",
+            "slug": "js-自定义-index-js",
+            "link": "#js-自定义-index-js",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "js/自定义/自定义功能.js",
+            "slug": "js-自定义-自定义功能-js",
+            "link": "#js-自定义-自定义功能-js",
+            "children": []
+          }
+        ]
       },
       {
         "level": 2,
@@ -425,6 +462,13 @@ export const SEARCH_INDEX = [
         "title": "index.html",
         "slug": "index-html",
         "link": "#index-html",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "update_log.md",
+        "slug": "update-log-md",
+        "link": "#update-log-md",
         "children": []
       },
       {
